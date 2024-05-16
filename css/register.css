@@ -10,7 +10,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 100px;
 }
 .header {
   display: flex;
@@ -24,7 +23,8 @@ body {
 }
 .main {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 .forms {
   min-height: 55vh;
@@ -70,9 +70,15 @@ a {
 a:hover {
   text-decoration: underline;
 }
+.left-part {
+  margin-left: 100px;
+}
 
+.right-part {
+  margin-left: auto;
+}
 .right-part img {
-  width: 65vh;
+  width: 73vh;
 }
 .romb {
   width: 50px;
